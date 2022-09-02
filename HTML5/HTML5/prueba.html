@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#registro">Registro</a></li>
+        <li><a href="#consultas">Consultas</a></li>
+        <li style="float:right"><a class="active" href="#contactenos">Contactenos</a></li>
+    </ul>
+
+    <form action="#registro">
+        <label for="registro">Registros</label>
+        <select name="Registros" id="lang">
+          <option value="#veterinario">veterinario</option>
+          <option value="#mascota">mascota</option>
+          <option value="#dueno">dueno</option>
+        </select>
+  </form>
+
+
+</body>
+
+<style>
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    }
+
+    li {
+    float: left;
+    color: #000;
+    }
+
+    li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+    background-color: rgb(202, 201, 201);
+    }
+    li {
+    border-right: 1px solid #bbb;
+    }
+
+    li:last-child {
+    border-right: none;
+    }
+
+</style>
+
+
+</html>
