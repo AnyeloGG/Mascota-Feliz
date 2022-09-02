@@ -1,0 +1,32 @@
+#inicio ul, ol {
+    list-style:none;
+}
+
+#inicio > li {
+    float:left;
+}
+
+#inicio li a {
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+#inicio li a:hover {
+    background-color:#434343;
+}
+
+
+
+///////////
+
+
+#inicio li ul li {
+    position:relative;
+}
+
+#inicio li ul li ul {
+    right:-140px;
+    top:0px;
+}
